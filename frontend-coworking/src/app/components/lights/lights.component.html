@@ -1,0 +1,25 @@
+<div class="h5">Lights</div>
+<div class="card">
+  <div class="table-responsive">
+    <table class="table">
+      <thead class="thead-dark">
+      <tr>
+        <th>
+          Room
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+          Paid
+        </th>
+      </tr>
+      </thead>
+      <tr *ngFor="let item of lights">
+        <td>{{item.room}}</td>
+        <td>{{item.isOn}}</td>
+        <td>{{item.paid}}</td>
+      </tr>
+    </table>
+  </div>
+</div>

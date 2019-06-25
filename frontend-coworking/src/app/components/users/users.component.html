@@ -1,0 +1,25 @@
+<div class="h5">CoWorking users</div>
+<div class="card align-self-stretch">
+  <div class="table-responsive">
+    <table class="table">
+      <thead class="thead-dark">
+      <tr>
+        <th>
+          Firstname
+        </th>
+        <th>
+          Lastname
+        </th>
+        <th>
+          Birthday
+        </th>
+      </tr>
+      </thead>
+      <tr *ngFor="let user of users">
+        <td>{{user.firstName}}</td>
+        <td>{{user.lastName}}</td>
+        <td>{{user.birthday}}</td>
+      </tr>
+    </table>
+  </div>
+</div>

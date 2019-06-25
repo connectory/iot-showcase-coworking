@@ -1,0 +1,25 @@
+<div class="h5">Conference Rooms</div>
+<div class="card">
+  <div class="table-responsive">
+    <table class="table">
+      <thead class="thead-dark">
+      <tr>
+        <th>
+          User
+        </th>
+        <th>
+          Time
+        </th>
+        <th>
+          Paid
+        </th>
+      </tr>
+      </thead>
+      <tr *ngFor="let item of conferenceRoomData">
+        <td>{{item.user}}</td>
+        <td>{{item.time}}</td>
+        <td>{{item.paid}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
